@@ -1,33 +1,4 @@
-// import Data from './Data'
-// import { Fragment, useState, useEffect } from 'react';
-// import Component from './Componet';
-// function App() {
-//   // const [data, setData] = useState();
-//   // const [index, setIndex] = useState(0);
 
-//   // useEffect(() => {
-//   //   const lastIndex = Data.length - 1;
-//   //   if (index < 0) {
-//   //     setIndex(lastIndex)
-//   //   }
-//   //   if (index > lastIndex) {
-//   //     setIndex(0);
-//   //   }
-//   //   console.log(lastIndex)
-//   // }, []);
-//   // var first = Data[0];
-//   // console.log(first)
-//   // setData(first)
-
-//   return (
-//     <div>
-//       <Component/>
-// 
-//     </div>
-//   );
-// }
-
-// export default App;
 import React, { useState, useEffect } from 'react';
 import Data from './Data.json'
 function App() {
@@ -82,9 +53,9 @@ function App() {
               </p>
 
               <p className='card-text'>
-              {data[currentIndex]?.email}
+                {data[currentIndex]?.email}
               </p>
-                
+
             </div>
           </div>
 
